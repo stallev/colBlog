@@ -11,17 +11,16 @@
   },
   "devDependencies": {},
   "dependencies": {
-    "@strapi/plugin-graphql": "^4.4.0",
-    "@strapi/plugin-i18n": "4.3.9",
-    "@strapi/plugin-users-permissions": "4.3.9",
-    "@strapi/strapi": "4.3.9",
-    "better-sqlite3": "7.4.6"
+    "@strapi/strapi": "4.4.3",
+    "@strapi/plugin-users-permissions": "4.4.3",
+    "@strapi/plugin-i18n": "4.4.3",
+    "mysql": "2.18.1"
   },
   "author": {
     "name": "A Strapi developer"
   },
   "strapi": {
-    "uuid": "2477e9c6-46dc-4f0d-8b17-689e76bb9639"
+    "uuid": "28a5661b-31cd-48f6-8558-9ca7acfca530"
   },
   "engines": {
     "node": ">=14.19.1 <=18.x.x",
