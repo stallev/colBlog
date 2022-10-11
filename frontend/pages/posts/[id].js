@@ -2,9 +2,9 @@ import Head from 'next/head';
 import Link from 'next/link';
 import { useEffect } from 'react';
 import { fetchAPI } from "../../lib/api";
-import Layout from '../../components/layout';
+import Layout from '../../components/layout/layout';
 
-export default function FirstPost({ post }) {
+const Post = ({ post }) => {
   useEffect(() => {
     console.log(post);
   }, [])
@@ -22,6 +22,8 @@ export default function FirstPost({ post }) {
     </Layout>
   );
 }
+
+export default Post;
 
 export async function getStaticPaths() {
     const postsRes = await fetchAPI("/posts", { fields: ["id"] })
