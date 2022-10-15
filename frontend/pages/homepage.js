@@ -1,6 +1,7 @@
 import Head from 'next/head';
 import Link from 'next/link';
 import { useEffect } from 'react';
+import { gql } from "@apollo/client";
 import { fetchAPI } from '../lib/api';
 import Layout from '../components/layout';
 

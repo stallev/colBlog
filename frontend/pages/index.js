@@ -4,6 +4,8 @@ import { useEffect } from 'react';
 import { fetchAPI } from '../lib/api';
 import Layout from '../components/layout/layout';
 import Container from '../components/container/container';
+import { getHomepage } from '../graphql/queries';
+import graphqlGetData from '../lib/graphqlapi';
 
 const Homepage = ({ homepage }) => {
   useEffect(() => {
@@ -28,7 +30,8 @@ const Homepage = ({ homepage }) => {
 }
 
 export async function getStaticProps() {
-  const homepage = await fetchAPI("/homepage");
+  // const homepage = await fetchAPI("/homepage");
+  const homepage = await graphqlGetData(getHomepage);
 
   return {
     props: { 
