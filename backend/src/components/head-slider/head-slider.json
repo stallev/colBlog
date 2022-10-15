@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_head_slider_head_sliders",
+  "info": {
+    "displayName": "HeadSlider",
+    "icon": "border-style"
+  },
+  "options": {},
+  "attributes": {
+    "slideItem": {
+      "displayName": "Slide",
+      "type": "component",
+      "repeatable": true,
+      "component": "slide.slide"
+    }
+  }
+}
