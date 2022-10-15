@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_test_component_test_components",
+  "info": {
+    "displayName": "testComponent",
+    "icon": "closed-captioning"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    }
+  }
+}
